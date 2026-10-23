@@ -39,7 +39,7 @@ jobs:
           org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
           -Dsonar.projectKey=PetClinic
           -Dsonar.projectName=PetClinic
-          -Dsonar.host.url="$SONAR_HOST_URL"
+          -Dsonar.host.url="http://localhost:9000"
           -Dsonar.token="$SONAR_TOKEN"
 
       - name: Upload JAR artifact
