@@ -37,7 +37,7 @@ jobs:
         run: >
           ./mvnw
           org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
-          -Dsonar.projectKey=PetClinic
+          -Dsonar.projectKey=spring-petclinic
           -Dsonar.projectName=PetClinic
           -Dsonar.host.url="http://localhost:9000"
           -Dsonar.token="$SONAR_TOKEN"
